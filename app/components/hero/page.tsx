@@ -10,8 +10,9 @@ const Hero = () => {
         src={"/home.jpg"}
         width={300}
         height={400}
-        className="object-cover"
+        className="object-cover rounded-lg"
         alt="Hero-image"
+  
       />
     </div>
     <div className="px-6 sm:w-[80%] md:w-[50%] lg:w-[50%] mx-auto">
@@ -37,12 +38,13 @@ const Hero = () => {
         </Button> 
       </div>
     </div>
-    <div className='hidden md:block md:w-[45%] className="object-cover'>
+    <div className='hidden md:block md:w-[45%] className="object-cover '>
       <Image
         src={"/home.jpg"}
         width={350}
         height={300}
         alt="Hero-image"
+        className='rounded-lg'
       />
     </div>
   </main>
