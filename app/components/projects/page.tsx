@@ -46,14 +46,14 @@ const Projects = () => {
   {/* Project 3 */}
   <div className="relative group items-center">
     <Image
-      src="/pureplates.PNG"
+      src="/clip-projects.png"
       alt="project3"
       width={700}
       height={300}
-      className="rounded-md w-[400px] sm:w-[450px] md:w-[500px] xl:w-[700px] h-[200px] xl:h-[300px] transition-opacity duration-300"
+      className="rounded-md w-[400px] sm:w-[450px] md:w-[500px] xl:w-[700px] h-[200px] xl:h-[300px] transition-opacity duration-300 border-2 border-purple-900"
     />
     <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-      <span className="text-white font-bold font-serif text-xl">Pure Plates</span>
+      <span className="text-white font-bold font-serif text-xl">CLI-Projects</span>
     </div>
   </div>
 

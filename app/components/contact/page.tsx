@@ -4,11 +4,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-6 md:py-10 xl:py-16 xl:px-10 bg-darkPurple">
+    <section id="contactsection" className="py-6 md:py-10 xl:py-16 xl:px-10 bg-darkPurple">
     <div className=" max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 className="justify-center flex items-center w-fit text-3xl lg:text-3xl xl:text-4xl  border-b-2 border-white font-bold text-white mb-10 mx-auto">Contact Me</h2>
       <div className="bg-purple-800 rounded-lg p-6 sm:p-8 lg:p-10">
-        <form className="space-y-6" action="mailto:your-email@example.com" method="POST">
+        <form className="space-y-6">
           <div className="flex flex-col md:flex-row md:space-x-6">
             <div className="w-full md:w-1/2">
               <label htmlFor="name" className="block text-white font-semibold mb-2 text-xl md:text-2xl">Name</label>
@@ -38,7 +38,7 @@ const Contact = () => {
               name="message"
               placeholder="Your Message"
               rows={5}
-              className="w-full p-4 bg-white rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primaryColor text-xl"
+              className="w-full p-4 bg-white rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 text-xl"
             />
           </div>
           <div className="text-center">

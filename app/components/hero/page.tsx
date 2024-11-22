@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Hero = () => {
@@ -30,12 +31,15 @@ const Hero = () => {
       </div>
       <div className="xl:w-[60%] flex justify-evenly py-6 px-2 sm:py-8 ">
         {" "}
+        <Link href="https://static-resume-gold-three.vercel.app/">
      <Button className=" font-semibold bg-white text-purple-900  px-3 py-5 md:px-4 md:py-6 lg:px-4 lg:py-6 text-md lg:text-xl sm:text-xl hover:bg-purple-500  hover:text-white rounded-md mr-4">
-          Download CV 
-        </Button>{" "} 
+       View CV
+        </Button>
+        </Link> {" "} 
+        <Link href={"https://www.linkedin.com/in/sunaina-ismail-7bb965334"}>
          <Button className=" font-semibold bg-transparent  px-4  py-5 md:px-4 md:py-6 lg:px-4 lg:py-6 text-md lg:text-xl sm:text-xl rounded-sm hover:shadow-md bg-purple-900 hover:bg-white hover:text-purple-600">
-          Connect
-        </Button> 
+         Connect
+        </Button> </Link> 
       </div>
     </div>
     <div className='hidden md:block md:w-[45%] className="object-cover '>
