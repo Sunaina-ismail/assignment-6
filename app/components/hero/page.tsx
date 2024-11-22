@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
       <div className="xl:w-[60%] flex justify-evenly py-6 px-2 sm:py-8 ">
         {" "}
-        <Link href="https://static-resume-gold-three.vercel.app/">
+        <Link href="https://static-resume-sunaina-ismails-projects.vercel.app/">
      <Button className=" font-semibold bg-white text-purple-900  px-3 py-5 md:px-4 md:py-6 lg:px-4 lg:py-6 text-md lg:text-xl sm:text-xl hover:bg-purple-500  hover:text-white rounded-md mr-4">
        View CV
         </Button>
